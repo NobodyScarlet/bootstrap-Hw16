@@ -1,0 +1,80 @@
+.startex {
+  @include bgr(100px 0 58px 0, "./../images/corner3.png", right);
+  background-size: contain;
+
+   .container {
+     .row {
+       .col-lg-4 {
+         padding-right: 100px;
+       }
+       .d-flex {
+          .social {
+            a {
+              img {
+                margin-left: 35px;
+                margin-top: 18px;
+                color: slategray;
+              }
+            }
+          }
+       }
+       .col-lg-3 {
+        .email {
+          a {
+            transition: .3s;
+            &:hover {
+              transform: scale(1.1);
+              transition: .3s;
+              &:active {
+               transform: scale(1);
+              }
+            }
+            img {
+              position: relative;
+              right: 7px;
+              max-width: 100vh;
+            }
+          }
+        }
+         .social {
+           filter: grayscale(1);
+           
+           a {
+            padding-right: 10px;
+           }
+         }
+        input {
+          @include input(0 35px,225px,49px, #f6f6f6);
+          border: gray 1px solid;
+          border-radius: 3px;
+       }
+       }
+       .col-lg-3 {
+         margin-right: 30px;
+       }
+       .col-lg-2,
+       .col-lg-2 {
+         h4 {
+           margin-bottom: 20px;
+         }
+       p {
+         color: $secondmain;
+         line-height: 2;
+        
+       }
+       a {
+         color: $secondmain;
+         text-decoration: none;
+         line-height: 2;
+
+         &:hover {
+          text-decoration:underline;
+         }
+
+         
+       }
+       
+      }
+     }
+   }
+}

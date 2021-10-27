@@ -1,0 +1,47 @@
+.doe {
+  @include bgr(110px 0 80px 0, "./../images/doe.png",center);
+  background-attachment: fixed;
+  .container {
+     
+    .row {
+      .col {
+        color: #fff;
+
+        
+        .photo__item {
+          background-color: #4e4e5e;
+          width: 75px;
+          height: 75px;
+          margin: 0 auto;
+        }
+
+        h5 {
+          margin-top: 30px;
+        }
+
+        p {
+          padding-top: 30px;
+          max-width: 310px;
+          margin: 0 auto;
+          color:$gray;
+        }
+        h6 {
+          color: $redmain;
+        }
+      }
+    }
+    .ad {
+      margin-top: 100px;
+
+      .col {
+        a {
+          img {
+            filter: invert(1) grayscale(1);
+            max-width: 100vh;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}

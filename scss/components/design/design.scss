@@ -1,0 +1,22 @@
+.design {
+  @include bgr(28px 0 130px 0,"./../images/corner.png",right );
+  background-size: contain;
+
+
+  div {
+    h6 {
+      @extend %red-text;
+    }
+    h2 {
+      font-size: 44px;
+      
+      span {
+        color: $redmain;
+      }
+     
+    }
+    p {
+      color: $secondmain;
+    }
+  }
+}

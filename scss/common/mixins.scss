@@ -1,0 +1,23 @@
+@mixin btn($mxw, $pdg) {
+  @extend %button;
+  max-width: $mxw;
+  padding: $pdg;
+
+  &:hover {
+    background-color: #ff6d6d;
+  }
+}
+
+@mixin input($pd, $wd, $hgt, $bgc) {
+  padding: $pd;
+  width: $wd;
+  height: $hgt;
+  background-color: $bgc;
+}
+
+@mixin bgr($pd, $url, $bgp) {
+  @extend %bg-img;
+  background-image: url($url);
+  background-position: $bgp;
+  padding: $pd;
+}

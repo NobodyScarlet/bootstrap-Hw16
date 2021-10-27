@@ -1,0 +1,40 @@
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+* {
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;
+}
+
+@media(max-width:$xl) {
+  .container {
+    width: $lg;
+  }
+}
+
+@media(max-width:$lg) {
+  .container {
+    width: $md;
+  }
+}
+
+@media(max-width:$md) {
+  .container {
+    width: $sm;
+  }
+  * {
+    font-size: 25px;
+  }
+}
+
+@media(max-width: $sm) {
+  .container {
+    width: $xs;
+  }
+  * {
+    font-size: 30px;
+  }
+ 
+}

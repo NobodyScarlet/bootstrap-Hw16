@@ -1,0 +1,80 @@
+@media (max-width:$md) {
+  .startex {
+    background-size: cover;
+    .container {
+      .row {
+        .col-lg-3 {
+          .email {
+            a {
+              img {
+                width: 80px;
+              }
+            }
+          }
+          input {
+             width: 400px;
+             height: 70px;
+          }
+          
+        }
+       .col-lg-4 {
+         a {
+           
+           img {
+             display: none;
+           }
+         }
+       }
+      }
+    }
+  }
+
+}
+
+@media (max-width:$lg) {
+  .startex {
+    .container {
+      .row {
+       .col-lg-2 {
+         a {
+           margin-right: 30px;
+           }
+         }
+       }
+      }
+    }
+  }
+
+@media (max-width:$sm) {
+    .startex {
+      background-size: cover;
+      .container {
+        .row {
+          .col-lg-2 {
+            .email {
+              a {
+                img {
+                  width: 80px;
+                }
+              }
+          }
+          .col-lg-3 {
+            .social {
+              a {
+                display: none;
+              }
+            }
+            input {
+               width: 400px;
+               height: 70px;
+            }
+            
+          }
+         }
+        }
+      }
+  
+  }
+}
+
+

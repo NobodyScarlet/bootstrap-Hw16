@@ -1,0 +1,23 @@
+%bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+%button {
+  background: $redmain;
+  margin: 0 auto;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: $transition;
+}
+
+%bottom-a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+%red-text {
+  color: $redmain;
+  text-transform: uppercase;
+}

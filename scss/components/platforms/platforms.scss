@@ -1,0 +1,70 @@
+.video__block {
+  @include bgr(0,"./../images/mount.png",center);
+  height: 100vh;
+  min-height: 800px;
+  background-attachment: fixed;
+  font-family: 'exo', sans-serif;
+  font-weight: lighter;
+
+  .block__item {
+    padding-top: 130px;
+    text-align: center;
+
+    .video__content {
+      padding-top: 85px;
+
+      h1 {
+        max-width: 815px;
+        margin: 0 auto 45px;
+        font-weight: 100;
+        font-size: 60px;
+        text-transform: uppercase;
+      }
+
+      img {
+        opacity: 0.6;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        cursor: pointer;
+        transition: $transition;
+        transform: scale(1);
+        transition: .3s;
+         
+        &:active {
+          transform: scale(0.95);
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+      .button {
+        @include btn(200px, 20px 50px);
+        margin-bottom: 20px;
+        transform: scale(1);
+        transition: .3s;
+         
+        &:active {
+          transform: scale(.95);
+        }
+         
+        &:hover {
+          opacity: 0.8;
+        }
+        
+         
+        a {
+          @extend %bottom-a;
+        }
+      }
+
+      p {
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+.btn {
+  @include btn(300px, 20px 50px);
+}

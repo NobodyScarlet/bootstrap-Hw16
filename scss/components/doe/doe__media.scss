@@ -1,0 +1,13 @@
+@media (max-width: $md) {
+  .doe {
+    .container {
+      .row {
+       .col {
+          p {
+            max-width: none;
+          }
+       }
+      }
+    }
+  }
+}

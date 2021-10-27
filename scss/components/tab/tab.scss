@@ -1,0 +1,24 @@
+.tab {
+  padding: 110px 0 0 0;
+  .container {
+    .row {
+      .col-12 {
+        h6 {
+          @extend %red-text;
+        }
+        h2 {
+          margin-bottom: 40px;
+        }
+        p {
+          max-width: 115vh;
+          color: $secondmain;
+        }
+        img {
+          margin: 0 auto;
+          margin-top: 40px;
+        }
+        
+      }
+    }
+  }
+}

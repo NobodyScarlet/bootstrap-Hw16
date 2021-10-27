@@ -1,0 +1,38 @@
+@media (max-width:$xl) {
+  
+.inputs {
+  .container {
+   .row {
+     .col-12 {
+       .inputs__item {
+         button {
+          margin: 32px 24px 0 0;
+         }
+       }
+     }
+   }
+  }
+}
+}
+
+@media (max-width:$md) {
+    
+.inputs {
+  .container {
+   .row {
+     .col-12 {
+       .inputs__item {
+         input {
+           width: 400px;
+           height: 70px;
+         }
+         button {
+           width: 400px;
+           height: 70px;
+         }
+       }
+     }
+   }
+  }
+}
+} 

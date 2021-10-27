@@ -1,0 +1,21 @@
+.features {
+  @include bgr(170px 0 200px 0,"./../images/bgblock2.png",right );
+  
+  .container {
+    .row {
+      .col {
+        img {
+          margin: 0 auto 20px;
+        }
+      }
+    }
+    div {
+      p {
+        color:$secondmain;
+      }
+      h6 {
+        @extend %red-text;
+      }
+    }
+  }
+}

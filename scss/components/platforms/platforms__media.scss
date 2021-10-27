@@ -1,0 +1,21 @@
+@media (max-width:$md) {
+  .video__block {
+    .block__item {
+      .video__content {
+        img {
+          width: 130px;
+        }
+        .button {
+           max-width: 400px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:$sm) {
+  .video__block {
+    min-height: 150vh;
+  }
+}
+

@@ -1,0 +1,25 @@
+.reposive {
+  @include bgr(100px 0 105px 0, "./../images/corner2.png",left);
+  background-size: contain;
+  .container {
+    .row {  
+     .col {
+       p {
+         color:$secondmain;
+       }
+       h6 {
+        @extend %red-text;
+       }
+      }
+      h2 {
+        font-size: 44px;
+        margin-bottom: 60px;
+
+        span {
+          color: $redmain;
+          
+        }
+     }
+    }
+  }
+} 
