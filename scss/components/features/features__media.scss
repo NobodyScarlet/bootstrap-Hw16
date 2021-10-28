@@ -1,3 +1,16 @@
+@media (max-width:$md) {
+  .features {
+    .container {
+      .row {
+        .col {
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}
+
+
 @media (max-width:$sm) {
   .features {
     background-size: cover;

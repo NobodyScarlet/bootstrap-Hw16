@@ -38,9 +38,12 @@
           opacity: 0.8;
         }
       }
-      .button {
-        @include btn(200px, 20px 50px);
-        margin-bottom: 20px;
+      .button  {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        a {
+          @include btn(200px, 20px 70px);
+        @extend %bottom-a;
         transform: scale(1);
         transition: .3s;
          
@@ -51,10 +54,6 @@
         &:hover {
           opacity: 0.8;
         }
-        
-         
-        a {
-          @extend %bottom-a;
         }
       }
 

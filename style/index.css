@@ -85,7 +85,7 @@ select {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.video__block .block__item .video__content .button, .btn {
+.video__block .block__item .video__content .button a, .btn {
   background: #ff6d6d;
   margin: 0 auto;
   border-radius: 3px;
@@ -160,17 +160,19 @@ select {
         .video__block .block__item .video__content img:hover {
           opacity: 0.8; }
       .video__block .block__item .video__content .button {
-        max-width: 200px;
-        padding: 20px 50px;
-        margin-bottom: 20px;
-        transform: scale(1);
-        transition: .3s; }
-        .video__block .block__item .video__content .button:hover {
-          background-color: #ff6d6d; }
-        .video__block .block__item .video__content .button:active {
-          transform: scale(0.95); }
-        .video__block .block__item .video__content .button:hover {
-          opacity: 0.8; }
+        margin-top: 60px;
+        margin-bottom: 30px; }
+        .video__block .block__item .video__content .button a {
+          max-width: 200px;
+          padding: 20px 70px;
+          transform: scale(1);
+          transition: .3s; }
+          .video__block .block__item .video__content .button a:hover {
+            background-color: #ff6d6d; }
+          .video__block .block__item .video__content .button a:active {
+            transform: scale(0.95); }
+          .video__block .block__item .video__content .button a:hover {
+            opacity: 0.8; }
       .video__block .block__item .video__content p {
         opacity: 0.6; }
 
@@ -183,11 +185,11 @@ select {
 @media (max-width: 767px) {
   .video__block .block__item .video__content img {
     width: 130px; }
-  .video__block .block__item .video__content .button {
+  .video__block .block__item .video__content .button a {
     max-width: 400px; } }
 @media (max-width: 576px) {
   .video__block {
-    min-height: 150vh; } }
+    min-height: 100vh; } }
 .design {
   background-image: url("./../images/corner.png");
   background-position: right;
@@ -212,6 +214,9 @@ select {
   .features .container div p {
     color: rgba(19, 18, 18, 0.842); }
 
+@media (max-width: 767px) {
+  .features .container .row .col {
+    margin-top: 50px; } }
 @media (max-width: 576px) {
   .features {
     background-size: cover; } }
@@ -320,9 +325,11 @@ select {
     margin: 32px 24px 0 0; } }
 @media (max-width: 767px) {
   .inputs .container .row .col-12 .inputs__item input {
+    margin: 0 0 50px 0;
     width: 400px;
     height: 70px; }
   .inputs .container .row .col-12 .inputs__item button {
+    margin: 0 0 50px 0;
     width: 400px;
     height: 70px; } }
 .startex {
