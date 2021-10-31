@@ -39,14 +39,13 @@
         }
       }
       .button  {
-        margin-top: 60px;
-        margin-bottom: 30px;
         a {
           @include btn(200px, 20px 70px);
         @extend %bottom-a;
         transform: scale(1);
         transition: .3s;
-         
+          margin-top: 60px;
+          margin-bottom: 30px;
         &:active {
           transform: scale(.95);
         }
